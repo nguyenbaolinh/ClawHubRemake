@@ -200,5 +200,5 @@ Tabs.Main:AddButton({
 })
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "Universe", Icon = "games" }),
+    Main = Window:AddTab({ Title = "Brookhaven", Icon = "" }),
 }
