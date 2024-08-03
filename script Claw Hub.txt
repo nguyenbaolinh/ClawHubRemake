@@ -198,3 +198,7 @@ Tabs.Main:AddButton({
             game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         end
 })
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Universe", Icon = "games" }),
+}
