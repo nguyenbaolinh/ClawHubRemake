@@ -200,7 +200,7 @@ Tabs.Main:AddButton({
 })
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "Brookhaven", Icon = "" }),
+    Brookhaven = Window:AddTab({ Title = "Brookhaven", Icon = "" }),
 }
 
 Tabs.Brookhaven:AddButton({
