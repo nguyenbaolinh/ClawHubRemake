@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 local Window = Fluent:CreateWindow({
     Title = "Claw Hub v1.3.4|",
-    SubTitle = "by Giang#4854",
+    SubTitle = "by Giang#4854| Team Claw Lite",
     TabWidth = 160,
     Size = UDim2.fromOffset(480, 360),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
