@@ -310,5 +310,37 @@ Tabs.Mm2:AddButton({
 })
 
 local Tabs = {
-    Mm2 = Window:AddTab({ Title = "Evade", Icon = "" }),
+    Evade = Window:AddTab({ Title = "Evade", Icon = "" }),
 }
+
+Tabs.Evade:AddButton({
+        Title = "Tbao Hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+        end
+})
+
+local Tabs = {
+    Donate = Window:AddTab({ Title = "PLS Donate", Icon = "" }),
+}
+
+Tabs.Donate:AddButton({
+        Title = "Fake Donate",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua")))()
+        end
+})
+
+local Tabs = {
+    Ball = Window:AddTab({ Title = "Blade Ball", Icon = "" }),
+}
+
+Tabs.Ball:AddButton({
+        Title = "REDzHUB",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+        end
+})
