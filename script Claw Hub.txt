@@ -357,7 +357,7 @@ local Tabs = {
     Pop = Window:AddTab({ Title = "Pop It", Icon = "" }),
 }
 
-Tabs.Ball:AddButton({
+Tabs.Pop:AddButton({
         Title = "Pop It Scam",
         Description = "",
         Callback = function()
