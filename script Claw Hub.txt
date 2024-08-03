@@ -228,7 +228,7 @@ Tabs.Brookhaven:AddButton({
 })
 
 local Tabs = {
-    BloxFruits = Window:AddTab({ Title = "BloxFruits", Icon = "" }),
+    BloxFruits = Window:AddTab({ Title = "Blox Fruits", Icon = "" }),
 }
 
 Tabs.BloxFruits:AddButton({
