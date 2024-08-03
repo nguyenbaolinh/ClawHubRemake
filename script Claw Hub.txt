@@ -272,3 +272,31 @@ Tabs.BloxFruits:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
         end
 })
+
+local Tabs = {
+    Mm2 = Window:AddTab({ Title = "Murder Mystery 2", Icon = "" }),
+}
+
+Tabs.Mm2:AddButton({
+        Title = "Yarhm",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+        end
+})
+
+Tabs.Mm2:AddButton({
+        Title = "Nexus",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
+        end
+})
+
+Tabs.Mm2:AddButton({
+        Title = "SnapSanix",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
+        end
+})
