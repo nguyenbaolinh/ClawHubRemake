@@ -160,11 +160,11 @@ coroutine.wrap(TKDWQ_fake_script)()
 
         
 local Slider = Tabs.Main:AddSlider("Slider", {
-    Title = "Slider",
-    Description = "This is a slider",
-    Default = 2,
+    Title = "Speed",
+    Description = "WalkSpeed Slider",
+    Default = 16,
     Min = 0,
-    Max = 5,
+    Max = 500,
     Rounding = 1,
     Callback = function(Value)
         print("Slider was changed:", Value)
