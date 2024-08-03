@@ -300,3 +300,15 @@ Tabs.Mm2:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
         end
 })
+
+Tabs.Mm2:AddButton({
+        Title = "Kidachi",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+        end
+})
+
+local Tabs = {
+    Mm2 = Window:AddTab({ Title = "Evade", Icon = "" }),
+}
