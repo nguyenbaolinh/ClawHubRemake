@@ -182,3 +182,19 @@ local Slider = Tabs.Main:AddSlider("Slider", {
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
     end
 })
+
+Tabs.Main:AddButton({
+        Title = "Reset Speed",
+        Description = "",
+        Callback = function()
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        end
+})
+
+Tabs.Main:AddButton({
+        Title = "Reset Jump",
+        Description = "",
+        Callback = function()
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        end
+})
