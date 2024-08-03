@@ -167,6 +167,18 @@ local Slider = Tabs.Main:AddSlider("Slider", {
     Max = 500,
     Rounding = 1,
     Callback = function(Value)
-        print("Slider was changed:", Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+    end
+})
+
+local Slider = Tabs.Main:AddSlider("Slider", {
+    Title = "Jump",
+    Description = "Jump Slider",
+    Default = 50,
+    Min = 0,
+    Max = 300,
+    Rounding = 1,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
     end
 })
