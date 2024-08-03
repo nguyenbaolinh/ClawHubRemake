@@ -344,3 +344,39 @@ Tabs.Ball:AddButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
         end
 })
+
+Tabs.Ball:AddButton({
+        Title = "Soon...",
+        Description = "",
+        Callback = function()
+            print("Wait 1.3.5")
+        end
+})
+
+local Tabs = {
+    Pop = Window:AddTab({ Title = "Pop It", Icon = "" }),
+}
+
+Tabs.Ball:AddButton({
+        Title = "Pop It Scam",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
+        end
+})
+
+local Tabs = {
+    Update = Window:AddTab({ Title = "Update Check", Icon = "" }),
+}
+
+local Section = Tabs.Update:AddSection("New Bypass AntiBan v7 🟢")
+
+local Section = Tabs.Update:AddSection("Safe 100% 🟢")
+
+local Section = Tabs.Update:AddSection("New UI ClawHub v1.3.4 🟢")
+
+local Section = Tabs.Update:AddSection("New Scripts BloxFruits 🟢")
+
+local Section = Tabs.Update:AddSection("New Scripts Murder Mystery 2 🟢")
+
+local Section = Tabs.Update:AddSection("Ko Nên Lạm Dụng Dùng Khôn Thì Sống Dùng Ngu Thì Delete Acc Thế Thôi 😇")
