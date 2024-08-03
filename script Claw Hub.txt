@@ -210,3 +210,11 @@ Tabs.Brookhaven:AddButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
         end
 })
+
+Tabs.Brookhaven:AddButton({
+        Title = "Sander X",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+        end
+})
