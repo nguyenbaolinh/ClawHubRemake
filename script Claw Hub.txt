@@ -202,3 +202,11 @@ Tabs.Main:AddButton({
 local Tabs = {
     Main = Window:AddTab({ Title = "Brookhaven", Icon = "" }),
 }
+
+Tabs.Brookhaven:AddButton({
+        Title = "REDzHUB",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+        end
+})
