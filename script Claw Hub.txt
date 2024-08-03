@@ -218,3 +218,23 @@ Tabs.Brookhaven:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
         end
 })
+
+Tabs.Brookhaven:AddButton({
+        Title = "JuiHub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+        end
+})
+
+local Tabs = {
+    BloxFruits = Window:AddTab({ Title = "BloxFruits", Icon = "" }),
+}
+
+Tabs.BloxFruits:AddButton({
+        Title = "REDzHUB",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+        end
+})
