@@ -378,5 +378,3 @@ local Section = Tabs.Update:AddSection("New UI ClawHub v1.3.4 🟢")
 local Section = Tabs.Update:AddSection("New Scripts BloxFruits 🟢")
 
 local Section = Tabs.Update:AddSection("New Scripts Murder Mystery 2 🟢")
-
-local Section = Tabs.Update:AddSection("Ko Nên Lạm Dụng Dùng Khôn Thì Sống Dùng Ngu Thì Delete Acc Thế Thôi 😇")
